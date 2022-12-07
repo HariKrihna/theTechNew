@@ -1,0 +1,224 @@
+
+header{
+    position:sticky;
+    z-index: 10;
+    width:100%;
+  }
+  
+  .image-logo-home{
+    height: 50px;
+    width:80px;
+  }
+  
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ffffff;
+    padding: 10px;
+    padding-right: 20px;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .nav-menu-bar{
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .nav-menu-bar div{
+    width:40px;
+    height:4px;
+    background-color: black;
+    border-radius: 2px;
+  }
+  .nav-menu-list{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border: 1px;
+    top:107px;
+    width:200px;
+    row-gap: 24px;
+    padding: 24px 16px;
+    right: -288px;
+    min-width: calc(100vh-60px);
+    background-color: #ffffff;
+    transition: all 0.3s;
+  }
+  .nav-menu-list li a{
+    padding: 5px;
+  }
+  .small-device-cancel-icon{
+    height: 35px;
+    width: 35px;
+    display: block;
+  }
+
+  .small-device-cart-icon{
+    height: 35px;
+    width: 35px;
+  }
+  .nav-menu-list.active{
+    right: 0;
+    padding: 10px;
+  }
+  .link-homepage-main{
+    color: #2D3556;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Inter';
+    text-decoration: none;
+  }
+  
+  .nav-home-links-container{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  
+  .center{
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-login{
+    color:#2D3556;
+    background-color: #FECE28;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  
+  .seach-icon{
+    display: none;
+    margin-right: 30px;
+  }
+  .cart-icon{
+    display: none;
+  }
+  .search-container{
+    display: none;
+  }
+  .small-nav-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+  }
+  .small-button-search-onclick{
+    background-color: transparent;
+    outline: none;
+    margin-right: 30px;
+    border: none;
+  }
+  .button-search-onclick{
+    display: none;
+  }
+  
+  @media screen and (min-width:768px) {
+    .big-device-cart-icon{
+        height: 35px;
+        width: 35px;
+    }
+    .nav{
+      display: flex;
+      flex-direction:row;
+      padding-left: 80px;
+      padding-right: 80px;
+      height: 110px;
+    }
+    .small-device-cancel-icon{
+        display: none;
+      }
+    
+    .nav-home-links-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 700px;
+    }
+    .link-homepage-main{
+      color: #2D3556;
+      font-size: 17px;
+      font-weight: 700;
+      font-family: 'Inter';
+    }
+    
+    .small-device-active{
+      display: none;
+    }
+    .nav-menu-list{
+      flex-direction: row;
+      position: unset;
+      column-gap: 30px;
+      align-items: center;
+      width: fit-content;
+      height: 100%;
+    }
+  
+    .image-logo-home{
+      height: 80px;
+      width:140px;
+      margin-right: 60px;
+    }
+  
+    .nav-menu-bar{
+      display: none;
+    }
+    
+    .login-container{
+     min-width: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .button-login{
+      width:80px;
+      color:#2D3556;
+      background-color: #FECE28;
+      border: none;
+      cursor: pointer;
+      font-weight: 700;
+      padding: 10px;
+      border-radius: 20px;
+    }
+    .seach-icon{
+      display: block;
+      cursor: pointer;
+    }
+    .cart-icon{
+      margin-top: 5px;
+      display: block;
+      cursor: pointer;
+    }
+    .search-input{
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width:60px;
+      outline: none;
+      height: 25px;
+      background-color: transparent;
+    }
+    .search-container{
+      display: flex;
+      flex-direction: row;
+    }
+    .button-search-onclick{
+      outline: none;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      display: block;
+    }
+  }

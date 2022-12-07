@@ -1,0 +1,45 @@
+.dorp-down-menu-courses{
+    width:10rem;
+    list-style: none;
+    position: absolute;
+    left: 35rem;
+}
+.dorp-down-menu-courses.clicked{
+    display: none;
+}
+.list-item-drom-course{
+    background-color: white;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color:  #2D3556;
+    padding:10px;
+}
+.list-item-drom-course:hover{
+    background-color: rgb(128, 129, 131);
+}
+.nav-tech-links-container{
+    position: absolute;
+    left: 10rem;
+    background-color: #ffffff;
+    list-style: none;
+    width: 300px;
+    overflow-y:auto;
+    height: 300px;
+    padding-left: 0px;
+}
+.nav-tech-links-container-list-item{
+    width: 100%;
+    padding: 10px;
+    color: #2D3556;
+}
+.nav-tech-links-container-list-item a{
+    color: #2D3556;
+    font-family: "Inter";
+    text-decoration: none;
+}
+.nav-tech-links-container-list-item:hover{
+    background-color: rgb(128, 129, 131);
+}
