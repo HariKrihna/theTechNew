@@ -30,7 +30,7 @@ const NavbarTech = () => {
                 }} >
 
                     <div>
-                        {!navNotActive ? <BsXLg className="small-device-cancel-icon"/> : <div className="nav-menu-bar">
+                        {navNotActive ? <BsXLg className="small-device-cancel-icon"/> : <div className="nav-menu-bar">
                             <div></div>
                             <div></div>
                             <div></div>

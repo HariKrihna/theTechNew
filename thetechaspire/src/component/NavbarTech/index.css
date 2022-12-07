@@ -133,12 +133,13 @@ header{
         display: block;
       }
     .big-device-cart-icon{
-        height: 35px;
-        width: 35px;
+        height: 30px;
+        width: 30px;
     }
     .nav{
-      display: flex;
-      flex-direction:row;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
       padding-left: 80px;
       padding-right: 80px;
       height: 110px;
@@ -152,7 +153,8 @@ header{
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      width: 700px;
+      width: 750px;
+      margin-left: 100px;
     }
     .link-homepage-main{
       color: #2D3556;
@@ -176,7 +178,6 @@ header{
     .image-logo-home{
       height: 80px;
       width:140px;
-      margin-right: 60px;
     }
   
     .nav-menu-bar{
