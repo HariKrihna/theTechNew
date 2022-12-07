@@ -15,7 +15,7 @@ const NavbarTech = () => {
     const [navNotActive, setNotActive] = useState(false)
     const [dropDown, setDropDown] = useState(false)
 
-    return (<header>
+    return (
         <nav className="nav">
             <a href={"/"}>
                 <img className="image-logo-home" alt="logo" src="https://res.cloudinary.com/db7cqlrsa/image/upload/v1666941003/The%20tech%20Destiny/The-Tech-Destiny_Light-Bg-1-1-869x488_pdp27t.png" />
@@ -63,8 +63,6 @@ const NavbarTech = () => {
 
             </div>
         </nav>
-
-    </header>)
-}
+    )}
 
 export default NavbarTech

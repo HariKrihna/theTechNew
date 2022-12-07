@@ -19,6 +19,7 @@ header{
     padding: 10px;
     padding-right: 20px;
     width: 100%;
+    background-size: cover;
     padding-left: 20px;
   }
   .nav-menu-bar{
@@ -40,7 +41,7 @@ header{
     flex-direction: column;
     position: fixed;
     border: 1px;
-    top:107px;
+    top:70px;
     width:200px;
     row-gap: 24px;
     padding: 24px 16px;
@@ -123,8 +124,14 @@ header{
   .button-search-onclick{
     display: none;
   }
+  .big-device-cart-icon{
+    display: none;
+  }
   
   @media screen and (min-width:768px) {
+    .big-device-cart-icon{
+        display: block;
+      }
     .big-device-cart-icon{
         height: 35px;
         width: 35px;
